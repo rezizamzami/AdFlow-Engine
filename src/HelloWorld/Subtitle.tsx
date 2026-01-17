@@ -9,6 +9,7 @@ const subtitle: React.CSSProperties = {
   position: "absolute",
   bottom: 140,
   width: "100%",
+  color: "white",
 };
 
 const codeStyle: React.CSSProperties = {
@@ -20,7 +21,7 @@ export const Subtitle: React.FC = () => {
   const opacity = interpolate(frame, [0, 30], [0, 1]);
   return (
     <div style={{ ...subtitle, opacity }}>
-      Edit <code style={codeStyle}>src/Root.tsx</code> and save to reload.
+      Automated <code style={codeStyle}>Growth</code> Engine.
     </div>
   );
 };

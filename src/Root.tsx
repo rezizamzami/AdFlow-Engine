@@ -21,8 +21,8 @@ export const RemotionRoot: React.FC = () => {
         // https://www.remotion.dev/docs/parametrized-rendering
         schema={myCompSchema}
         defaultProps={{
-          titleText: "Welcome to Remotion",
-          titleColor: "#000000",
+          titleText: "AdFlow Engine",
+          titleColor: "#ffffff",
           logoColor1: "#91EAE4",
           logoColor2: "#86A8E7",
         }}
