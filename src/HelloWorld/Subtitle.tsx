@@ -10,7 +10,6 @@ const subtitle: React.CSSProperties = {
   bottom: 125,
   width: "100%",
   color: "white",
-  marginTop: 60,
 };
 
 const codeStyle: React.CSSProperties = {
