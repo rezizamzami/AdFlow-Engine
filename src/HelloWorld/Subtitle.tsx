@@ -7,9 +7,10 @@ const subtitle: React.CSSProperties = {
   fontSize: 40,
   textAlign: "center",
   position: "absolute",
-  bottom: 140,
+  bottom: 125,
   width: "100%",
   color: "white",
+  marginTop: 60,
 };
 
 const codeStyle: React.CSSProperties = {
